@@ -6,7 +6,7 @@
 
 const Shape = require("./shape");
 class Circle extends Shape {
-  calculateArea = function () {};
+  calculateArea() {}
 }
 
 module.exports = Circle;

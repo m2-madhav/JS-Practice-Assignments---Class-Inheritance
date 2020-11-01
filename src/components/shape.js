@@ -10,8 +10,8 @@ class Shape extends React.Component {
     super(props);
     this.color = "red";
   }
-  drawShape = function () {};
-  calculateArea = function () {};
+  drawShape() {}
+  calculateArea() {}
 }
 
 module.exports = Shape;
